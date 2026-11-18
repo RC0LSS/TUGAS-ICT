@@ -1,0 +1,279 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffeb3b;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+  padding: 20px;
+}
+
+.richard-container {
+  max-width: 900px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.richard-section {
+  border: 3px solid #000000;
+  padding: 14px;
+  background-color: #fff59d;
+}
+
+img {
+  display: block;
+  border: 3px solid #000000;
+  object-fit: cover;
+  background-color: #ffffff;
+}
+
+.richard-header-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.richard-circle-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+}
+
+.richard-header-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.richard-title-box,
+.richard-subtitle-box {
+  border: 3px solid #000000;
+  padding: 8px 12px;
+  font-weight: bold;
+  background-color: #ffee58;
+}
+
+.richard-title-box {
+  font-size: 18px;
+}
+
+.richard-subtitle-box {
+  width: 85%;
+  font-size: 15px;
+}
+
+.richard-header-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 15px;
+}
+
+.richard-header-text p {
+  font-size: 14px;
+  line-height: 1.6;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 4px;
+}
+
+.richard-small-square-img {
+  width: 75px;
+  height: 75px;
+  flex-shrink: 0;
+}
+
+.richard-row-2 {
+  display: flex;
+  gap: 14px;
+}
+
+.richard-col-half {
+  flex: 1;
+}
+
+.richard-flow-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+
+.richard-flow-group .richard-top-label {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 12px;
+  border-bottom: 2px solid #000000;
+  margin-bottom: 4px;
+}
+
+.richard-flow-group p {
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.richard-arrow {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.richard-flow-divider {
+  text-align: right;
+  font-weight: bold;
+  font-size: 16px;
+  padding-right: 25px;
+  margin: 4px 0;
+}
+
+.richard-two-list-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  align-items: center;
+}
+
+.richard-bullet-list {
+  list-style: none;
+  width: 100%;
+}
+
+.richard-bullet-list li {
+  position: relative;
+  padding-left: 22px;
+  margin-bottom: 10px;
+  font-size: 13px;
+  border-bottom: 1px solid #000000;
+  padding-bottom: 2px;
+}
+
+.richard-bullet-list li:last-child {
+  margin-bottom: 0;
+}
+
+.richard-bullet-list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 2px;
+  width: 11px;
+  height: 11px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+}
+
+.richard-row-3 {
+  display: flex;
+  gap: 14px;
+}
+
+.richard-side-col {
+  width: 22%;
+  display: flex;
+  align-items: center;
+}
+
+.richard-bullet-list.richard-compact li {
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.richard-center-col {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.richard-side-lines {
+  flex: 1;
+  font-size: 10px;
+  line-height: 1.5;
+}
+
+.richard-side-lines p {
+  border-bottom: 1px solid #000000;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.richard-center-banner-img {
+  width: 55%;
+  height: 150px;
+}
+
+.richard-article-section {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.richard-article-text {
+  flex: 1;
+}
+
+.richard-article-text p {
+  font-size: 13px;
+  line-height: 1.6;
+  border-bottom: 1px solid #000000;
+  margin-bottom: 4px;
+}
+
+.richard-article-image img {
+  width: 260px;
+  height: 165px;
+}
+
+.richard-footer-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.richard-cards-container {
+  display: flex;
+  gap: 12px;
+  flex: 2;
+}
+
+.richard-card {
+  border: 3px solid #000000;
+  padding: 8px;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  background-color: #ffee58;
+}
+
+.richard-dot-circle {
+  width: 14px;
+  height: 14px;
+  border: 2px solid #000000;
+  border-radius: 50%;
+}
+
+.richard-card img {
+  width: 100%;
+  height: 85px;
+}
+
+.richard-card p {
+  font-size: 12px;
+  font-weight: bold;
+  border-top: 1px solid #000000;
+  width: 100%;
+  text-align: center;
+  padding-top: 4px;
+}
+
+.richard-footer-list {
+  flex: 1;
+}
